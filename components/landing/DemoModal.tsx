@@ -245,7 +245,7 @@ export function DemoModal({ isOpen, onClose }: DemoModalProps) {
                 <div>
                   <label className="block text-xs font-medium text-slate-700 dark:text-slate-300 mb-1.5 flex items-center gap-1">
                     <Building className="w-3.5 h-3.5 text-brand-500 dark:text-brand-400" />
-                    School / Institution *
+                    School Name / Institution *
                   </label>
                   <input
                     {...register("schoolName")}
