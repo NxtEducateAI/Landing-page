@@ -111,40 +111,6 @@ export function Hero({ onOpenDemo }: HeroProps) {
               <span>Explore Interactive Tour</span>
             </a>
           </div>
-
-          {/* Social Proof & Trust Banner */}
-          <div className="pt-6 border-t border-slate-200 dark:border-white/10 flex flex-wrap items-center justify-center gap-6 sm:gap-12 text-sm text-slate-600 dark:text-slate-400">
-            <div className="flex items-center gap-2.5">
-              <div className="flex -space-x-2">
-                <div className="w-8 h-8 rounded-full border-2 border-slate-50 dark:border-[#070B14] bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-[10px] font-bold text-white shadow">
-                  DPS
-                </div>
-                <div className="w-8 h-8 rounded-full border-2 border-slate-50 dark:border-[#070B14] bg-gradient-to-br from-emerald-500 to-teal-600 flex items-center justify-center text-[10px] font-bold text-white shadow">
-                  DAV
-                </div>
-                <div className="w-8 h-8 rounded-full border-2 border-slate-50 dark:border-[#070B14] bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center text-[10px] font-bold text-white shadow">
-                  KV
-                </div>
-                <div className="w-8 h-8 rounded-full border-2 border-slate-50 dark:border-[#070B14] bg-slate-200 dark:bg-slate-800 flex items-center justify-center text-[10px] font-bold text-slate-700 dark:text-slate-300">
-                  +500
-                </div>
-              </div>
-              <span className="text-slate-700 dark:text-slate-300 font-medium">
-                Empowering <strong className="text-slate-900 dark:text-white">500+ Schools</strong> & Over{" "}
-                <strong className="text-emerald-600 dark:text-emerald-400 font-bold">250,000+ Students</strong>
-              </span>
-            </div>
-
-            <div className="hidden md:flex items-center gap-1.5 text-xs text-slate-600 dark:text-slate-400">
-              <ShieldCheck className="w-4 h-4 text-emerald-600 dark:text-emerald-400" />
-              <span>ISO 27001 & FERPA Compliant</span>
-            </div>
-
-            <div className="hidden md:flex items-center gap-1.5 text-xs text-slate-600 dark:text-slate-400">
-              <CheckCircle2 className="w-4 h-4 text-brand-500 dark:text-brand-400" />
-              <span>CBSE / ICSE / State Certified</span>
-            </div>
-          </div>
         </div>
 
         {/* Hero Interactive Window Preview */}
