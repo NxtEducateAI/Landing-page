@@ -79,7 +79,7 @@ export function Footer({ onOpenDemo }: FooterProps) {
 
             <div className="mt-6 flex items-center gap-3">
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/company/nxteducateai/"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="LinkedIn"
