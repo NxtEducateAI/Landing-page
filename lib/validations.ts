@@ -7,10 +7,7 @@ export const demoFormSchema = z.object({
     .max(80, "Full name is too long"),
   email: z
     .string()
-    .email("Please provide a valid institutional email address")
-    .refine((val) => !val.endsWith("@gmail.com") && !val.endsWith("@yahoo.com") && !val.endsWith("@hotmail.com"), {
-      message: "Please provide an official school or organization email address",
-    }),
+    .email("Please provide a valid email address"),
   phone: z
     .string()
     .min(10, "Phone number must be at least 10 digits")
