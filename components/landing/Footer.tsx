@@ -45,13 +45,6 @@ export function Footer({ onOpenDemo }: FooterProps) {
               <span>Schedule Live School Demo</span>
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </button>
-            <a
-              href="tel:+918000456789"
-              className="w-full sm:w-auto px-6 py-4 text-sm font-medium text-slate-700 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white rounded-2xl glass flex items-center justify-center gap-2 transition"
-            >
-              <Phone className="w-4 h-4 text-brand-500 dark:text-brand-400" />
-              <span>Talk to Admissions Expert</span>
-            </a>
           </div>
         </div>
       </div>
